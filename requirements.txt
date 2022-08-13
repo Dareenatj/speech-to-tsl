@@ -1,2 +1,2 @@
-SpeechRecognition
+speech_regcognition
 pythainlp
