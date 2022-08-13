@@ -1,5 +1,5 @@
 import streamlit as st
-import SpeechRegcognition as sr
+import speech_regcognition as sr
 import pythainlp
 from pythainlp import sent_tokenize, word_tokenize
 
