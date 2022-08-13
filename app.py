@@ -1,6 +1,3 @@
-pip install SpeechRecognition
-pip install pythainlp
-
 import streamlit as st
 import speech_regcognition as sr
 import pythainlp
