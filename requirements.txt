@@ -1,3 +1,4 @@
-SpeechRegcognition
-pythainlp
+python -m pip <pip arguments>
+SpeechRegcognition (3.8.1)
+pythainlp (3.0)
 streamlit
