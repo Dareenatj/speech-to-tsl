@@ -1,4 +1,4 @@
-pythainlp
+#pythainlp
 scr.sound
-SpeechRegcognition
+#SpeechRegcognition
 streamlit
