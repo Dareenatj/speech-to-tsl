@@ -1,2 +1,4 @@
-#SpeechRegcognition
-streamlit 
+pythainlp==3.0
+scr.sound==1.9.6
+SpeechRegcognition==3.8.1
+streamlit==1.12.0
