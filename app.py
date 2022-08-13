@@ -6,7 +6,7 @@ st.title("🗣💬 to tsl")
 st.subheader("Translating Thai speech to Thai Sign Language")
 
 @st.cache
-def rec():
+def load_data():
   st.text_input("Search here", value="", max_chars=None, disabled=False)
   txt=word_tokenize(value)
   words={
@@ -16,6 +16,8 @@ def rec():
     }
   for i in txt:
       print(words[i])
-#if st.button_input("record"):
+def rec():
+  st.button_input("record")
+
 
 
