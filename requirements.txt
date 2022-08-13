@@ -1,4 +1,4 @@
-python -m pip <pip arguments>
+--upgrade pip
 SpeechRegcognition (3.8.1)
 pythainlp (3.0)
 streamlit
