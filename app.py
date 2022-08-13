@@ -14,7 +14,11 @@ with header:
 
 with features:
   input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
-  input_sound=st.button("record")
+  if st.button("record"):
+    with st.spinner(f'Recording for {DURATION} seconds ....'):
+            sound.record()
+        st.success("Recording completed")
+  
 #with modelTraining:
 #@st.cache
 #if st.text_input("Search here", value="", max_chars=None, disabled=False):
