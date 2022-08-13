@@ -8,8 +8,8 @@ st.subheader("Translating Thai speech to Thai Sign Language")
 
 @st.cache
 def rec():
-st.text_input("Search here", value="", max_chars=None, disabled=False)
-  txt=word_tokenize(value)
+input_txt=st.text_input("Search here")
+  txt=word_tokenize(input_txt)
   thisdict={
     "ฉัน":"https://www.engdict.com/vocab/?q=I",
     "ชื่อ":"https://th.theasianparent.com/hit-trendy-baby-name",
