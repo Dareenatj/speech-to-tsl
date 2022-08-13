@@ -14,7 +14,7 @@ with header:
 
 with features:
   input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
-  input_sound=st.button_input("record")
+  input_sound=st.button("record")
 #with modelTraining:
 #@st.cache
 #if st.text_input("Search here", value="", max_chars=None, disabled=False):
