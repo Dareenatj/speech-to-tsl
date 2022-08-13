@@ -2,10 +2,10 @@ import streamlit as st
 #import speech_regcognition as sr
 #from pythainlp import sent_tokenize, word_tokenize
 
-header=st.beta_container()
-dataset=st.beta_container()
-features=st.beta_container()
-modelTraining=st.betacontainer()
+header=st.container()
+dataset=st.container()
+features=st.container()
+modelTraining=st.container()
 
 with header:
   st.title("🗣💬 to tsl")
