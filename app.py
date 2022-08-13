@@ -15,7 +15,7 @@ with header:
 with features:
   input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
   if st.button("record"):
-    with st.spinner(f'Recording for {DURATION} seconds ....'):
+    with st.spinner(text='Recording'):
       sound.record()
     st.success("Recording completed")
   
