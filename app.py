@@ -6,8 +6,7 @@ st.title("🗣💬 to tsl")
 st.subheader("Translating Thai speech to Thai Sign Language")
 
 @st.cache
-def load_data():
-  st.text_input("Search here", value="", max_chars=None, disabled=False)
+if st.text_input("Search here", value="", max_chars=None, disabled=False):
   txt=word_tokenize(value)
   words={
     "ฉัน":"https://www.engdict.com/vocab/?q=I",
@@ -16,8 +15,7 @@ def load_data():
     }
   for i in txt:
       print(words[i])
-def rec():
-  st.button_input("record")
+st.button_input("record")
 
 
 
