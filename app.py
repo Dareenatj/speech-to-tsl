@@ -1,5 +1,5 @@
 import streamlit as st
-import speech_regcognition as sr
+#import speech_regcognition as sr
 from pythainlp import sent_tokenize, word_tokenize
 
 st.title("🗣💬 to tsl")
