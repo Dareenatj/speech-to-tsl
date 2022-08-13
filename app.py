@@ -1,4 +1,5 @@
 import streamlit as st
+from src.sound import sound
 #import speech_regcognition as sr
 #from pythainlp import sent_tokenize, word_tokenize
 
@@ -16,8 +17,9 @@ with features:
   input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
   if st.button("record"):
     with st.spinner(text='Recording'):
+      time.sleep(0)
       sound.record()
-    st.success("Recording completed")
+    st.success("Done!")
   
 #with modelTraining:
 #@st.cache
