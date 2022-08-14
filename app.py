@@ -1,5 +1,5 @@
 import streamlit as st
-from src.sound import sound
+import pyaudio
 #import speech_regcognition as sr
 #from pythainlp import sent_tokenize, word_tokenize
 
