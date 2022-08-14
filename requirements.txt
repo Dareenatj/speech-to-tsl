@@ -1,4 +1,3 @@
 #pythainlp
-scr.sound
 #SpeechRegcognition
 streamlit
