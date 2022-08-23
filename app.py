@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from pythaiasr import asr
 #import speech_regcognition as sr
 #from pythainlp import sent_tokenize, word_tokenize
