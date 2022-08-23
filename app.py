@@ -14,7 +14,7 @@ with header:
 
 
 with features:
-  col1, col2 = st.beta_columns([3,1])
+  col1, col2 = st.columns([3,1])
   with col1:
     input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
   with col2:
