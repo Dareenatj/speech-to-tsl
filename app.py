@@ -14,12 +14,15 @@ with header:
 
 
 with features:
-  input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
-  if st.button("record"):
-    with st.spinner(text='Recording'):
-      time.sleep(0)
-      sound.record()
-    st.success("Done!")
+  col1, col2 = st.beta_columns([3,1])
+  with col1:
+    input_txt=st.text_input("Search here", value="", max_chars=None, disabled=False)
+  with col2:
+    if st.button("record"):
+      with st.spinner(text='Recording'):
+        time.sleep(0)
+        sound.record()
+      st.success("Done!")
   
 #with modelTraining:
 #@st.cache
